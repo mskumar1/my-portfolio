@@ -44,16 +44,16 @@ const Projects = () => {
         color: "from-teal-500 to-blue-500",
         timeline: "May 2025"
     },
-    {
-        title: "Customer Inquiry and Procurement System",
-        description: "Built a customer inquiry portal for steel procurement at optimal market prices. Integrated RESTful APIs with OpenAI, Amazon APIs, and Python-based pricing models. Automated JSON data ingestion and implemented PDF/image-to-text conversion pipelines. Integrated a Python predictive pricing model API to forecast SKU prices accurately.",
-        technologies: ["Java", "Spring Boot", "React.js", "Python", "REST APIs", "OpenAI API", "Amazon API"],
-        status: "Completed",
-        type: "Enterprise Project",
-        icon: ShipIcon,
-        color: "from-indigo-500 to-blue-500",
-        timeline: "Feb 2025"
-    },
+    // {
+    //     title: "Customer Inquiry and Procurement System",
+    //     description: "Built a customer inquiry portal for steel procurement at optimal market prices. Integrated RESTful APIs with OpenAI, Amazon APIs, and Python-based pricing models. Automated JSON data ingestion and implemented PDF/image-to-text conversion pipelines. Integrated a Python predictive pricing model API to forecast SKU prices accurately.",
+    //     technologies: ["Java", "Spring Boot", "React.js", "Python", "REST APIs", "OpenAI API", "Amazon API"],
+    //     status: "Completed",
+    //     type: "Enterprise Project",
+    //     icon: ShipIcon,
+    //     color: "from-indigo-500 to-blue-500",
+    //     timeline: "Feb 2025"
+    // },
     {
         title: "Credit Module",
         description: "Implemented credit workflows, including credit limits, tracking, and Camunda-based process automation. Developed REST APIs for credit management and integrated them with frontend modules. Ensured accurate credit calculations and seamless user experience.",
