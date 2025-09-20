@@ -27,7 +27,7 @@ const Projects = () => {
     {
         title: "AI-Powered Document/Image Parser & Validator (Hackathon 2025)",
         description: "Developed an AI-based document parsing system to extract structured data from invoices and images. Integrated OCR pipelines (image/PDF-to-text) with Gemini 2.0 Flash LLM for instant parsing and validation. Built Spring Boot backend with database integration and a dynamic UI for real-time data extraction. Delivered a working demo showcasing AI-assisted document processing.",
-        technologies: ["Spring Boot", "React.js", "OCR", "LLM Integration", "Machine Learning"],
+        technologies: ["Java", "Spring Boot", "React.js", "OCR", "LLM Integration"],
         status: "Completed",
         type: "Hackathon Project",
         icon: Brain,
