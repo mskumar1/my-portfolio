@@ -1,7 +1,7 @@
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, Github, Trophy, Zap, Database, Brain, Verified, Wallet, DiscIcon, BrickWall, BrickWallIcon, LayoutDashboard, ListOrderedIcon, ListOrdered, ZapIcon } from 'lucide-react';
+import { ExternalLink, Github, Trophy, Zap, Database, Brain, Verified, Wallet, DiscIcon, BrickWall, BrickWallIcon, LayoutDashboard, ListOrderedIcon, ListOrdered, ZapIcon, ShipIcon } from 'lucide-react';
 
 const Projects = () => {
   const projects = [  
@@ -15,113 +15,113 @@ const Projects = () => {
     //   color: "from-blue-500 to-cyan-500"
     // },
     {
-        title: "Order",
-        description: "Core ongoing project in the Transaction Experience Platform. Continuously developing new features for order creation, processing, tracking, and management, ensuring seamless workflows and integration with other modules.",
+        title: "Order Project",
+        description: "Developed and enhanced order creation, processing, and tracking workflows using Java, Spring Boot, React.js. Optimized RESTful APIs and MySQL queries, improving response time by 25%. Debugged production issues within Agile sprints, ensuring 100% on-time delivery.",
         technologies: ["Java", "Spring Boot", "React.js", "REST APIs", "MySQL"],
         status: "Ongoing",
         type: "Enterprise Project",
         icon: ZapIcon,
-        color: "from-blue-500 to-cyan-500"
+        color: "from-blue-500 to-cyan-500",
+        timeline: "Dec 2023 – Present"
     },
     {
-        title: "Order Dashboard",
-        description: "Comprehensive order management interface with live updates, analytics, and reporting in the Transaction Experience Platform. Continuously enhanced with new features.",
-        technologies: ["React.js", "Spring Boot", "MySQL", "REST APIs"],
-        status: "Ongoing",
-        type: "Enterprise Project",
-        icon: LayoutDashboard,
-        color: "from-indigo-500 to-blue-500"
+        title: "AI-Powered Document/Image Parser & Validator (Hackathon 2025)",
+        description: "Developed an AI-based document parsing system to extract structured data from invoices and images. Integrated OCR pipelines (image/PDF-to-text) with Gemini 2.0 Flash LLM for instant parsing and validation. Built Spring Boot backend with database integration and a dynamic UI for real-time data extraction. Delivered a working demo showcasing AI-assisted document processing.",
+        technologies: ["Spring Boot", "React.js", "OCR", "LLM Integration", "Machine Learning"],
+        status: "Completed",
+        type: "Hackathon Project",
+        icon: Brain,
+        color: "from-purple-500 to-pink-500",
+        timeline: "June 2025"
     },
     {
-        title: "Order Management System",
-        description: "Oversaw full order lifecycle including order creation, updates, tracking, and reporting.",
+        title: "ERP Middleware (TPL Order Flow Support)",
+        description: "Developed backend and frontend enhancements for new lenders (Stride, Mintifi). Built workflows for order creation, invoice generation, and payment handling. Created a centralized configuration table to improve scalability and maintainability.",
         technologies: ["Java", "Spring Boot", "React.js", "REST APIs", "MySQL"],
         status: "Completed",
         type: "Enterprise Project",
-        icon: ListOrderedIcon,
-        color: "from-blue-500 to-cyan-500"
+        icon: Database,
+        color: "from-teal-500 to-blue-500",
+        timeline: "May 2025"
     },
     {
-      title: "AI-Powered Invoice Parser & Validator",
-      description: "Hackathon 2025 project featuring OCR and LLM-powered instant invoice data extraction with validation. Built with cutting-edge AI technologies for automated finance processing.",
-      technologies: ["Spring AI", "LLM Integration", "OCR", "Java", "React", "Machine Learning"],
-      status: "Completed",
-      type: "Hackathon Project",
-      icon: Brain,
-      color: "from-purple-500 to-pink-500"
-    },
-    {
-        title: "FNA (ERP)",
-        description: "Worked on ERP-related finance and accounting functionalities including expense tracking and automated workflows.",
-        technologies: ["Java", "Spring Boot", "Angular.js", "MySQL", "REST APIs"],
+        title: "Customer Inquiry and Procurement System",
+        description: "Built a customer inquiry portal for steel procurement at optimal market prices. Integrated RESTful APIs with OpenAI, Amazon APIs, and Python-based pricing models. Automated JSON data ingestion and implemented PDF/image-to-text conversion pipelines. Integrated a Python predictive pricing model API to forecast SKU prices accurately.",
+        technologies: ["Java", "Spring Boot", "React.js", "Python", "REST APIs", "OpenAI API", "Amazon API"],
         status: "Completed",
         type: "Enterprise Project",
-        icon: Database,
-        color: "from-teal-500 to-blue-500"
+        icon: ShipIcon,
+        color: "from-indigo-500 to-blue-500",
+        timeline: "Feb 2025"
     },
     {
         title: "Credit Module",
-        description: "Implemented credit management functionalities for users, including credit limits and tracking.",
-        technologies: ["Java", "Spring Boot", "React.js", "REST APIs", "MySQL", "Camunda"],
+        description: "Implemented credit workflows, including credit limits, tracking, and Camunda-based process automation. Developed REST APIs for credit management and integrated them with frontend modules. Ensured accurate credit calculations and seamless user experience.",
+        technologies: ["Java", "Spring Boot", "React.js", "REST APIs", "Camunda", "MySQL"],
         status: "Completed",
         type: "Enterprise Project",
         icon: Card,
-        color: "from-yellow-500 to-orange-500"
+        color: "from-yellow-500 to-orange-500",
+        timeline: "June 2024"
     },
     {
-        title: "Payment",
-        description: "Implemented payment handling including Razorpay integration, payment verification, and transaction management.",
+        title: "Payment Project",
+        description: "Integrated Razorpay Payment Gateway for secure and automated digital transactions. Built backend services for payment verification, reconciliation, and transaction tracking. Optimized API performance and collaborated with cross-functional teams for seamless integration.",
         technologies: ["Java", "Spring Boot", "React.js", "Razorpay", "REST APIs", "MySQL"],
         status: "Completed",
         type: "Enterprise Project",
         icon: Zap,
-        color: "from-cyan-500 to-blue-500"
+        color: "from-cyan-500 to-blue-500",
+        timeline: "Dec 2023"
     },
     {
-        title: "Ledger Wallet",
-        description: "Developed wallet management functionality for users, including balance tracking and transaction history.",
-        technologies: ["Java", "Spring Boot", "REST APIs", "MySQL", "Wallet APIs"],
+        title: "Order Dashboard Project",
+        description: "Developed a real-time analytics and reporting dashboard for order management. Integrated frontend (React.js) with backend REST APIs for live updates. Enabled data-driven insights for operations and management teams.",
+        technologies: ["React.js", "Spring Boot", "REST APIs", "MySQL"],
+        status: "Completed",
+        type: "Enterprise Project",
+        icon: LayoutDashboard,
+        color: "from-indigo-500 to-blue-500",
+        timeline: "Sept 2023"
+    },
+    {
+        title: "Ledger Wallet Project",
+        description: "Developed UI and backend services for Ledger Account Wallet integration. Built controllers and RESTful APIs to manage wallet transactions and balances. Ensured secure wallet data handling and optimized API performance.",
+        technologies: ["Java", "Spring Boot", "React.js", "REST APIs", "MySQL", "Wallet APIs"],
         status: "Completed",
         type: "Enterprise Project",
         icon: Wallet,
-        color: "from-green-500 to-emerald-500"
+        color: "from-green-500 to-emerald-500",
+        timeline: "June 2023"
     },
     {
-        title: "Paywall",
-        description: "Implemented access control and subscription/paywall features for different user tiers.",
-        technologies: ["Java", "Spring Boot", "React.js", "REST APIs"],
-        status: "Completed",
-        type: "Enterprise Project",
-        icon: BrickWall,
-        color: "from-purple-500 to-pink-500"
-    },
-    {
-        title: "Products",
-        description: "Managed product catalog, inventory, and details within the platform.",
-        technologies: ["Java", "Spring Boot", "React.js", "MySQL", "REST APIs"],
-        status: "Completed",
-        type: "Enterprise Project",
-        icon: BrickWallIcon,
-        color: "from-indigo-500 to-purple-500"
-    },
-    {
-        title: "Discount & Coupons",
-        description: "Built discount and coupon management functionality for orders and promotions.",
-        technologies: ["Java", "Spring Boot", "React.js", "MySQL", "REST APIs"],
-        status: "Completed",
-        type: "Enterprise Project",
-        icon: DiscIcon,
-        color: "from-pink-500 to-purple-500"
-    },
-    {
-        title: "Business Verification Platform (BVP)",
-        description: "Handled business verification flows including KYC, document verification, and validation processes.",
+        title: "Paywall & Discount Coupons Project",
+        description: "Designed and implemented subscription-based paywall features for different user tiers. Built a discount and coupon engine to manage promotions and pricing rules. Integrated modules ensuring real-time updates and smooth workflows.",
         technologies: ["Java", "Spring Boot", "React.js", "REST APIs", "MySQL"],
         status: "Completed",
         type: "Enterprise Project",
-        icon: Verified,
-        color: "from-blue-500 to-cyan-500"
+        icon: BrickWallIcon,
+        color: "from-purple-500 to-pink-500",
+        timeline: "Aug 2022"
     }
+    // ,{
+    //     title: "Products",
+    //     description: "Managed product catalog, inventory, and details within the platform.",
+    //     technologies: ["Java", "Spring Boot", "React.js", "MySQL", "REST APIs"],
+    //     status: "Completed",
+    //     type: "Enterprise Project",
+    //     icon: BrickWallIcon,
+    //     color: "from-indigo-500 to-purple-500"
+    // },
+    // {
+    //     title: "Business Verification Platform (BVP)",
+    //     description: "Handled business verification flows including KYC, document verification, and validation processes.",
+    //     technologies: ["Java", "Spring Boot", "React.js", "REST APIs", "MySQL"],
+    //     status: "Completed",
+    //     type: "Enterprise Project",
+    //     icon: Verified,
+    //     color: "from-blue-500 to-cyan-500"
+    // }
   ];
 
   return (

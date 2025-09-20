@@ -65,6 +65,13 @@ const About = () => {
                 </Card>
 
                 <Card className="p-6 card-hover border-border bg-card">
+                  <h3 className="font-semibold text-xl mb-2 gradient-text">Internship</h3>
+                  <p className="text-foreground font-medium">Java Full Stack Intern</p>
+                  <p className="text-muted-foreground">Pantech eLearning</p>
+                  <p className="text-sm text-muted-foreground mt-2">Sep 2022 – Sep 2022</p>
+                </Card>
+
+                <Card className="p-6 card-hover border-border bg-card">
                   <h3 className="font-semibold text-xl mb-2 gradient-text">Education</h3>
                   <p className="text-foreground font-medium">B.Tech Electronics & Communications</p>
                   <p className="text-muted-foreground">Chalapathi Institute of Engineering & Technology</p>

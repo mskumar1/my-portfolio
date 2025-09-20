@@ -33,7 +33,7 @@ const Experience = () => {
     },
     {
       degree: "Higher Secondary (CBSE)",
-      field: "Science Stream",
+      field: "Science Stream (MPC)",
       institution: "Sir C.R. Reddy Public School",
       period: "2012 – 2018",
       location: "Andhra Pradesh, India"
