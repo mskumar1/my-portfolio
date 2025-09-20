@@ -79,9 +79,11 @@ const Contact = () => {
             <div className="w-20 h-1 section-divider mx-auto mt-6"></div>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12">
+          <div className="relative h-screen">
+          {/*<div className="grid lg:grid-cols-2 gap-12">*/}
             {/* Contact Information */}
-            <div className="animate-fade-in-left">
+            {/*<div className="animate-fade-in-left">*/}
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 animate-fade-in-center">
               <h3 className="text-2xl font-semibold mb-6 gradient-text">
                 Get In Touch
               </h3>
@@ -141,7 +143,7 @@ const Contact = () => {
             </div>
 
             {/* Contact Form */}
-            <div className="animate-fade-in-right">
+            {/*<div className="animate-fade-in-right">
               <Card className="p-6 border-border bg-card">
                 <h3 className="text-2xl font-semibold mb-6 gradient-text">
                   Send Message
@@ -212,7 +214,7 @@ const Contact = () => {
                   </Button>
                 </form>
               </Card>
-            </div>
+            </div>*/}
           </div>
         </div>
       </div>
