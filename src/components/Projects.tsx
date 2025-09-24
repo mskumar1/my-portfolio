@@ -24,6 +24,16 @@ const Projects = () => {
         color: "from-blue-500 to-cyan-500",
         timeline: "Dec 2023 – Present"
     },
+     {
+        title: "Order Dashboard Project",
+        description: "Developed a real-time analytics and reporting dashboard for order management. Integrated frontend (Angular.js) with backend REST APIs for live updates. Enabled data-driven insights for operations and management teams.",
+        technologies: ["Java", "Spring Boot", "Angular.js", "REST APIs", "MySQL"],
+        status: "Ongoing",
+        type: "Enterprise Project",
+        icon: LayoutDashboard,
+        color: "from-indigo-500 to-blue-500",
+        timeline: "Sept 2023"
+    },
     {
         title: "AI-Powered Document/Image Parser & Validator (Hackathon 2025)",
         description: "Developed an AI-based document parsing system to extract structured data from invoices and images. Integrated OCR pipelines (image/PDF-to-text) with Gemini 2.0 Flash LLM for instant parsing and validation. Built Spring Boot backend with database integration and a dynamic UI for real-time data extraction. Delivered a working demo showcasing AI-assisted document processing.",
@@ -73,16 +83,6 @@ const Projects = () => {
         icon: Zap,
         color: "from-cyan-500 to-blue-500",
         timeline: "Dec 2023"
-    },
-    {
-        title: "Order Dashboard Project",
-        description: "Developed a real-time analytics and reporting dashboard for order management. Integrated frontend (Angular.js) with backend REST APIs for live updates. Enabled data-driven insights for operations and management teams.",
-        technologies: ["Java", "Spring Boot", "Angular.js", "REST APIs", "MySQL"],
-        status: "Ongoing",
-        type: "Enterprise Project",
-        icon: LayoutDashboard,
-        color: "from-indigo-500 to-blue-500",
-        timeline: "Sept 2023"
     },
     {
         title: "Ledger Wallet Project",
