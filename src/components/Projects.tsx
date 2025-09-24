@@ -16,23 +16,13 @@ const Projects = () => {
     // },
     {
         title: "Order Project",
-        description: "Developed and enhanced order creation, processing, and tracking workflows using Java, Spring Boot, React.js. Optimized RESTful APIs and MySQL queries, improving response time by 25%. Debugged production issues within Agile sprints, ensuring 100% on-time delivery.",
+        description: "Developed and enhanced order creation, processing, and tracking workflows using Java, Spring Boot, Js, Html, Css. Optimized RESTful APIs and MySQL queries, improving response time by 25%. Debugged production issues within Agile sprints, ensuring 100% on-time delivery.",
         technologies: ["Java", "Spring Boot", "Js", "Html", "CSS", "REST APIs", "MySQL"],
         status: "Ongoing",
         type: "Enterprise Project",
         icon: ZapIcon,
         color: "from-blue-500 to-cyan-500",
         timeline: "Dec 2023 – Present"
-    },
-     {
-        title: "Order Dashboard Project",
-        description: "Developed a real-time analytics and reporting dashboard for order management. Integrated frontend (Angular.js) with backend REST APIs for live updates. Enabled data-driven insights for operations and management teams.",
-        technologies: ["Java", "Spring Boot", "Angular.js", "REST APIs", "MySQL"],
-        status: "Ongoing",
-        type: "Enterprise Project",
-        icon: LayoutDashboard,
-        color: "from-indigo-500 to-blue-500",
-        timeline: "Sept 2023"
     },
     {
         title: "AI-Powered Document/Image Parser & Validator (Hackathon 2025)",
@@ -43,6 +33,16 @@ const Projects = () => {
         icon: Brain,
         color: "from-purple-500 to-pink-500",
         timeline: "June 2025"
+    },
+     {
+        title: "Order Dashboard Project",
+        description: "Developed a real-time analytics and reporting dashboard for order management. Integrated frontend (Angular.js) with backend REST APIs for live updates. Enabled data-driven insights for operations and management teams.",
+        technologies: ["Java", "Spring Boot", "Angular.js", "REST APIs", "MySQL"],
+        status: "Ongoing",
+        type: "Enterprise Project",
+        icon: LayoutDashboard,
+        color: "from-indigo-500 to-blue-500",
+        timeline: "Sept 2023"
     },
     {
         title: "ERP Middleware (TPL Order Flow Support)",
