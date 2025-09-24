@@ -76,9 +76,9 @@ const Projects = () => {
     },
     {
         title: "Order Dashboard Project",
-        description: "Developed a real-time analytics and reporting dashboard for order management. Integrated frontend (React.js) with backend REST APIs for live updates. Enabled data-driven insights for operations and management teams.",
+        description: "Developed a real-time analytics and reporting dashboard for order management. Integrated frontend (Angular.js) with backend REST APIs for live updates. Enabled data-driven insights for operations and management teams.",
         technologies: ["Java", "Spring Boot", "Angular.js", "REST APIs", "MySQL"],
-        status: "Completed",
+        status: "Ongoing",
         type: "Enterprise Project",
         icon: LayoutDashboard,
         color: "from-indigo-500 to-blue-500",

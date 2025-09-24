@@ -146,7 +146,7 @@ const Skills = () => {
             </Card>
             <Card className="p-6 text-center card-hover border-border bg-card animate-fade-in-up delay-1400">
               <div className="text-3xl font-bold gradient-text mb-2">Intermediate</div>
-              <p className="text-muted-foreground">Angular, Django, AI Integration</p>
+              <p className="text-muted-foreground">Angular, AI Integration</p>
             </Card>
           </div>
 
