@@ -13,13 +13,13 @@ const Experience = () => {
       responsibilities: [
         "Developed and maintained backend services using Java, Spring Boot, and REST APIs",
         "Implemented payment gateway integrations with Razorpay for seamless transactions",
-        "Built responsive frontend interfaces using React.js and Angular.js",
+        "Built responsive frontend interfaces using Angular.js",
         "Designed and optimized MySQL database schemas for improved performance",
         "Collaborated in Agile/Scrum environment with cross-functional teams",
         "Provided production support and resolved critical system issues",
         "Created automated tools for finance workflows and invoice processing"
       ],
-      technologies: ["Java 8", "Spring Boot", "React.js", "MySQL", "REST APIs", "Razorpay", "AWS"]
+      technologies: ["Java 8", "Spring Boot", "Angular.js", "MySQL", "REST APIs", "Razorpay", "AWS"]
     }
   ];
 

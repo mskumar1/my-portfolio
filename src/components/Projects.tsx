@@ -17,7 +17,7 @@ const Projects = () => {
     {
         title: "Order Project",
         description: "Developed and enhanced order creation, processing, and tracking workflows using Java, Spring Boot, React.js. Optimized RESTful APIs and MySQL queries, improving response time by 25%. Debugged production issues within Agile sprints, ensuring 100% on-time delivery.",
-        technologies: ["Java", "Spring Boot", "React.js", "REST APIs", "MySQL"],
+        technologies: ["Java", "Spring Boot", "Js", "Html", "CSS", "REST APIs", "MySQL"],
         status: "Ongoing",
         type: "Enterprise Project",
         icon: ZapIcon,
@@ -37,7 +37,7 @@ const Projects = () => {
     {
         title: "ERP Middleware (TPL Order Flow Support)",
         description: "Developed backend and frontend enhancements for new lenders (Stride, Mintifi). Built workflows for order creation, invoice generation, and payment handling. Created a centralized configuration table to improve scalability and maintainability.",
-        technologies: ["Java", "Spring Boot", "React.js", "REST APIs", "MySQL"],
+        technologies: ["Java", "Spring Boot", "Js", "Html", "CSS", "REST APIs", "MySQL"],
         status: "Completed",
         type: "Enterprise Project",
         icon: Database,
@@ -57,7 +57,7 @@ const Projects = () => {
     {
         title: "Credit Module",
         description: "Implemented credit workflows, including credit limits, tracking, and Camunda-based process automation. Developed REST APIs for credit management and integrated them with frontend modules. Ensured accurate credit calculations and seamless user experience.",
-        technologies: ["Java", "Spring Boot", "React.js", "REST APIs", "Camunda", "MySQL"],
+        technologies: ["Java", "Spring Boot", "Js", "Html", "CSS", "REST APIs", "Camunda", "MySQL"],
         status: "Completed",
         type: "Enterprise Project",
         icon: Card,
@@ -67,7 +67,7 @@ const Projects = () => {
     {
         title: "Payment Project",
         description: "Integrated Razorpay Payment Gateway for secure and automated digital transactions. Built backend services for payment verification, reconciliation, and transaction tracking. Optimized API performance and collaborated with cross-functional teams for seamless integration.",
-        technologies: ["Java", "Spring Boot", "React.js", "Razorpay", "REST APIs", "MySQL"],
+        technologies: ["Java", "Spring Boot", "Razorpay", "REST APIs", "MySQL"],
         status: "Completed",
         type: "Enterprise Project",
         icon: Zap,
@@ -77,7 +77,7 @@ const Projects = () => {
     {
         title: "Order Dashboard Project",
         description: "Developed a real-time analytics and reporting dashboard for order management. Integrated frontend (React.js) with backend REST APIs for live updates. Enabled data-driven insights for operations and management teams.",
-        technologies: ["React.js", "Spring Boot", "REST APIs", "MySQL"],
+        technologies: ["Java", "Spring Boot", "Angular.js", "REST APIs", "MySQL"],
         status: "Completed",
         type: "Enterprise Project",
         icon: LayoutDashboard,
@@ -87,7 +87,7 @@ const Projects = () => {
     {
         title: "Ledger Wallet Project",
         description: "Developed UI and backend services for Ledger Account Wallet integration. Built controllers and RESTful APIs to manage wallet transactions and balances. Ensured secure wallet data handling and optimized API performance.",
-        technologies: ["Java", "Spring Boot", "React.js", "REST APIs", "MySQL", "Wallet APIs"],
+        technologies: ["Java", "Spring Boot", "Angular.js", "REST APIs", "MySQL"],
         status: "Completed",
         type: "Enterprise Project",
         icon: Wallet,
@@ -97,7 +97,7 @@ const Projects = () => {
     {
         title: "Paywall & Discount Coupons Project",
         description: "Designed and implemented subscription-based paywall features for different user tiers. Built a discount and coupon engine to manage promotions and pricing rules. Integrated modules ensuring real-time updates and smooth workflows.",
-        technologies: ["Java", "Spring Boot", "React.js", "REST APIs", "MySQL"],
+        technologies: ["Java", "Spring Boot", "Js", "Html", "CSS", "REST APIs", "MySQL"],
         status: "Completed",
         type: "Enterprise Project",
         icon: BrickWallIcon,

@@ -32,7 +32,7 @@ const About = () => {
               </p>
               
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                My expertise spans across backend development with Java, frontend frameworks like React and Angular, 
+                My expertise spans across backend development with Java, frontend frameworks like Angular, 
                 and cloud technologies including AWS. I'm passionate about creating efficient, scalable solutions 
                 and have a proven track record in payment gateway integrations, finance workflows, and API development.
               </p>
@@ -81,7 +81,7 @@ const About = () => {
                 <Card className="p-6 card-hover border-border bg-card">
                   <h3 className="font-semibold text-xl mb-2 gradient-text">Specialization</h3>
                   <p className="text-foreground font-medium">Backend Development & APIs</p>
-                  <p className="text-muted-foreground">Spring Boot, REST APIs, Payment Gateways</p>
+                  <p className="text-muted-foreground">Java, Spring Boot, REST APIs, Payment Gateways</p>
                   <p className="text-sm text-muted-foreground mt-2">Enterprise Scale Solutions</p>
                 </Card>
               </div>
