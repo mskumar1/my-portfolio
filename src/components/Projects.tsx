@@ -87,7 +87,7 @@ const Projects = () => {
     {
         title: "Ledger Wallet Project",
         description: "Developed UI and backend services for Ledger Account Wallet integration. Built controllers and RESTful APIs to manage wallet transactions and balances. Ensured secure wallet data handling and optimized API performance.",
-        technologies: ["Java", "Spring Boot", "Angular.js", "REST APIs", "MySQL"],
+        technologies: ["Java", "Spring Boot", "REST APIs", "MySQL"], //"Angular.js", 
         status: "Completed",
         type: "Enterprise Project",
         icon: Wallet,
