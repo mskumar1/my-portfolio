@@ -19,7 +19,7 @@ const Experience = () => {
         "Provided production support and resolved critical system issues",
         "Created automated tools for finance workflows and invoice processing"
       ],
-      technologies: ["Java 8", "Spring Boot", "Angular.js", "MySQL", "REST APIs", "Razorpay", "AWS"]
+      technologies: ["Java 8", "Spring Boot", "MySQL", "REST APIs", "Razorpay", "AWS"] // "Angular.js",
     }
   ];
 

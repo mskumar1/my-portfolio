@@ -39,7 +39,7 @@ const Hero = () => {
               Mohana Sai Kumar Rongala
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-2">
-              Java Full Stack Developer
+              Java SpringBoot Backend Developer
             </p>
             <p className="text-lg md:text-xl text-accent">
               Spring Boot Specialist | API & Cloud Enthusiast
@@ -57,7 +57,7 @@ const Hero = () => {
               <div className="text-sm text-muted-foreground">Worked on Projects</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold gradient-text">21+</div>
+              <div className="text-2xl font-bold gradient-text">12+</div>
               <div className="text-sm text-muted-foreground">Technologies</div>
             </div>
           </div>
@@ -84,7 +84,7 @@ const Hero = () => {
 
           {/* Download Resume */}
           <div className="animate-fade-in-up delay-800">
-            <a href="/Mohana_Sai_Kumar_Rongala_latest_Resume.pdf" download>
+            <a href="/MOHANA SAI KUMAR RONGALA Resume.pdf" download>
                 <Button
                 variant="ghost"
                 className="text-muted-foreground hover:text-foreground"

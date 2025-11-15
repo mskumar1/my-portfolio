@@ -18,7 +18,7 @@ const Footer = () => {
               Mohana Sai Kumar Rongala
             </h3>
             <p className="text-muted-foreground mb-6">
-              Java Full Stack Developer | Spring Boot Specialist | API & Cloud Enthusiast
+              Java Backend Developer | Spring Boot Specialist | API & Cloud Enthusiast
             </p>
             
             {/* Back to Top Button */}

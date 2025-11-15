@@ -25,7 +25,7 @@ const About = () => {
             {/* Bio */}
             <div className="animate-fade-in-left">
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                I'm a passionate <span className="text-primary font-semibold">Java Full Stack Developer</span> with 
+                I'm a passionate <span className="text-primary font-semibold">Java Backend Developer</span> with 
                 over 3 years of experience building scalable web applications and robust backend systems. 
                 Currently working at <span className="text-secondary font-semibold">Tata Nexarc</span>, 
                 I specialize in Spring Boot, REST APIs, and modern web technologies.
@@ -60,7 +60,7 @@ const About = () => {
                 <Card className="p-6 card-hover border-border bg-card">
                   <h3 className="font-semibold text-xl mb-2 gradient-text">Current Role</h3>
                   <p className="text-foreground font-medium">Software Developer</p>
-                  <p className="text-muted-foreground">Tata Nexarc, Hyderabad</p>
+                  <p className="text-muted-foreground">Tata Nexarc, Hyderabad (Remote)</p>
                   <p className="text-sm text-muted-foreground mt-2">Aug 2022 – Present</p>
                 </Card>
 
