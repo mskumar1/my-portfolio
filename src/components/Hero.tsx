@@ -84,7 +84,7 @@ const Hero = () => {
 
           {/* Download Resume */}
           <div className="animate-fade-in-up delay-800">
-            <a href="/MOHANA SAI KUMAR RONGALA Resume.pdf" download>
+            <a href="/MOHANA SAI KUMAR RONGALA.pdf" download>
                 <Button
                 variant="ghost"
                 className="text-muted-foreground hover:text-foreground"

@@ -38,7 +38,7 @@ const skillIcons: Record<string, string> = {
   "REST APIs": RestIcon,
   "Microservices": MicroservicesIcon,
   "Maven": MavenIcon,
-  "React.js": ReactIcon,
+  //"React.js": ReactIcon,
   "Angular.js": AngularIcon,
   "HTML5": HTML5Icon,
   "CSS3": CSS3Icon,
@@ -60,7 +60,7 @@ const skillIcons: Record<string, string> = {
   "Ajax": AjaxIcon,
   "JSON": JSONIcon,
   "JSP": JSPIcon,
-  "Servlets": ServletIcon,
+  // "Servlets": ServletIcon,
   "Agile/Scrum": AgileIcon
 };
 
@@ -72,7 +72,7 @@ const skillCategories = [
   },
   {
     title: "Frontend Development", 
-    skills: ["React.js", "Angular.js", "HTML5", "CSS3", "jQuery"],// "JavaScript (ES6+)"],
+    skills: [ "Angular.js", "HTML5", "CSS3", "jQuery"],// "JavaScript (ES6+)"],"React.js",
     color: "bg-secondary/10 text-secondary border-secondary/20"
   },
   {
@@ -87,7 +87,7 @@ const skillCategories = [
   },
   {
     title: "Additional Skills",
-    skills: ["Ajax", "JSON", "JSP", "Servlets", "Agile/Scrum"], //"Django",
+    skills: ["Ajax", "JSON", "JSP", "Agile/Scrum"], //"Django", "Servlets",
     color: "bg-card text-card-foreground border-border"
   }
 ];
@@ -142,7 +142,7 @@ const Skills = () => {
             </Card>
             <Card className="p-6 text-center card-hover border-border bg-card animate-fade-in-up delay-1200">
               <div className="text-3xl font-bold gradient-text mb-2">Advanced</div>
-              <p className="text-muted-foreground">React.js, MySQL, AWS</p>
+              <p className="text-muted-foreground">MySQL, AWS</p>
             </Card>
             <Card className="p-6 text-center card-hover border-border bg-card animate-fade-in-up delay-1400">
               <div className="text-3xl font-bold gradient-text mb-2">Intermediate</div>

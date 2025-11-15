@@ -58,7 +58,7 @@ const Navigation = () => {
                 className="h-10 w-10 object-cover rounded-full border-2 border-primary"
             />
             <span className="font-bold text-xl gradient-text">
-                Mohana Sai Kumar Rongala | Java Full Stack Developer
+                Mohana Sai Kumar Rongala | Java Backend Developer
             </span>
             </div>
 
