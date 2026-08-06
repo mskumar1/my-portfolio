@@ -30,6 +30,9 @@ import JSONIcon from "@/assets/skills/json.png";
 import JSPIcon from "@/assets/skills/jsp.png";
 import ServletIcon from "@/assets/skills/servlets.png";
 import AgileIcon from "@/assets/skills/agile.png";
+import RedisIcon from "@/assets/skills/redis.png";
+import PostgresIcon from "@/assets/skills/postgresql.png";
+import RabbitMQIcon from "@/assets/skills/rabbitmq.png";
 
 const skillIcons: Record<string, string> = {
   "Java 8": JavaIcon,
@@ -61,7 +64,10 @@ const skillIcons: Record<string, string> = {
   "JSON": JSONIcon,
   "JSP": JSPIcon,
   // "Servlets": ServletIcon,
-  "Agile/Scrum": AgileIcon
+  "Agile/Scrum": AgileIcon,
+  "Redis": RedisIcon,
+  "PostgreSQL": PostgresIcon,
+  "RabbitMQ": RabbitMQIcon
 };
 
 const skillCategories = [
@@ -82,7 +88,7 @@ const skillCategories = [
   },
   {
     title: "Tools & Technologies",
-    skills: ["Git", "SVN", "SonarQube", "Nexus", "AWS", "Spring AI", "LLM Integration"],
+    skills: ["Git", "SVN", "SonarQube", "Nexus", "AWS", "Spring AI", "LLM Integration", "Redis", "PostgreSQL", "RabbitMQ"],
     color: "bg-muted text-muted-foreground border-border"
   },
   {

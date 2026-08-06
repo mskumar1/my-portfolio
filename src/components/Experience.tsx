@@ -11,15 +11,14 @@ const Experience = () => {
       period: "Aug 2022 – Present",
       type: "Full-time",
       responsibilities: [
-        "Developed and maintained backend services using Java, Spring Boot, and REST APIs",
-        "Implemented payment gateway integrations with Razorpay for seamless transactions",
-        "Built responsive frontend interfaces using Angular.js",
-        "Designed and optimized MySQL database schemas for improved performance",
-        "Collaborated in Agile/Scrum environment with cross-functional teams",
-        "Provided production support and resolved critical system issues",
-        "Created automated tools for finance workflows and invoice processing"
+        "Engineered OCR Invoice pipelines to parse, extract, and structure invoice details, reducing manual indexing overhead.",
+        "Built transactional checkout pipelines with Razorpay and other payment gateways, resolving webhook processing and reconciliation.",
+        "Implemented distributed locking via Redis to prevent double-spending and ensure transaction consistency under concurrent spikes.",
+        "Developed and maintained core backend services using Java 8, Spring Boot, microservices, and REST APIs.",
+        "Built responsive frontend modules using Angular.js and optimized MySQL database queries/schemas.",
+        "Collaborated in Agile/Scrum environments with cross-functional teams to resolve critical production support issues."
       ],
-      technologies: ["Java 8", "Spring Boot", "MySQL", "REST APIs", "Razorpay", "AWS"] // "Angular.js",
+      technologies: ["Java 8", "Spring Boot", "MySQL", "REST APIs", "Razorpay", "Redis", "AWS"] // "Angular.js"
     }
   ];
 
