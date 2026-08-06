@@ -45,6 +45,36 @@ const Projects = () => {
         timeline: "Dec 2023 – Jan 2026"
     },
     {
+        title: "AI-Powered Document/Image Parser & Validator (Hackathon 2025)",
+        description: "Developed an AI-based document parsing system to extract structured data from invoices and images. Integrated OCR pipelines (image/PDF-to-text) with Gemini 2.0 Flash LLM for instant parsing and validation. Built Spring Boot backend with database integration and a dynamic UI for real-time data extraction. Delivered a working demo showcasing AI-assisted document processing.",
+        technologies: ["Java", "Spring Boot", "React.js", "OCR", "LLM Integration"],
+        status: "Completed",
+        type: "Hackathon Project",
+        icon: Brain,
+        color: "from-purple-500 to-pink-500",
+        timeline: "June 2025"
+    },
+     {
+        title: "Order Dashboard Project",
+        description: "Developed a real-time analytics and reporting dashboard for order management. Integrated frontend (Angular.js) with backend REST APIs for live updates. Enabled data-driven insights for operations and management teams.",
+        technologies: ["Java", "Spring Boot", "Angular.js", "REST APIs", "MySQL"],
+        status: "Ongoing",
+        type: "Enterprise Project",
+        icon: LayoutDashboard,
+        color: "from-indigo-500 to-blue-500",
+        timeline: "Sept 2023"
+    },
+    {
+        title: "ERP Middleware (TPL Order Flow Support)",
+        description: "Developed backend and frontend enhancements for new lenders (Stride, Mintifi). Built workflows for order creation, invoice generation, and payment handling. Created a centralized configuration table to improve scalability and maintainability.",
+        technologies: ["Java", "Spring Boot", "Js", "Html", "CSS", "REST APIs", "MySQL"],
+        status: "Completed",
+        type: "Enterprise Project",
+        icon: Database,
+        color: "from-teal-500 to-blue-500",
+        timeline: "May 2025"
+    },
+    {
         title: "Credit Module",
         description: "Implemented credit workflows, including credit limits, tracking, and Camunda-based process automation. Developed REST APIs for credit management and integrated them with frontend modules. Ensured accurate credit calculations and seamless user experience.",
         technologies: ["Java", "Spring Boot", "Js", "Html", "CSS", "REST APIs", "Camunda", "MySQL"],
