@@ -25,54 +25,24 @@ const Projects = () => {
         timeline: "Oct 2024 – Present"
     },
     {
-        title: "Order Project",
-        description: "Developed and enhanced order creation, processing, and tracking workflows using Java, Spring Boot, Js, Html, Css. Optimized RESTful APIs and MySQL queries, improving response time by 25%. Debugged production issues within Agile sprints, ensuring 100% on-time delivery.",
-        technologies: ["Java", "Spring Boot", "Js", "Html", "CSS", "REST APIs", "MySQL"],
-        status: "Ongoing",
-        type: "Enterprise Project",
-        icon: ZapIcon,
-        color: "from-blue-500 to-cyan-500",
-        timeline: "Dec 2023 – Present"
-    },
-    {
-        title: "AI-Powered Document/Image Parser & Validator (Hackathon 2025)",
-        description: "Developed an AI-based document parsing system to extract structured data from invoices and images. Integrated OCR pipelines (image/PDF-to-text) with Gemini 2.0 Flash LLM for instant parsing and validation. Built Spring Boot backend with database integration and a dynamic UI for real-time data extraction. Delivered a working demo showcasing AI-assisted document processing.",
-        technologies: ["Java", "Spring Boot", "React.js", "OCR", "LLM Integration"],
-        status: "Completed",
-        type: "Hackathon Project",
-        icon: Brain,
-        color: "from-purple-500 to-pink-500",
-        timeline: "June 2025"
-    },
-     {
-        title: "Order Dashboard Project",
-        description: "Developed a real-time analytics and reporting dashboard for order management. Integrated frontend (Angular.js) with backend REST APIs for live updates. Enabled data-driven insights for operations and management teams.",
-        technologies: ["Java", "Spring Boot", "Angular.js", "REST APIs", "MySQL"],
-        status: "Ongoing",
-        type: "Enterprise Project",
-        icon: LayoutDashboard,
-        color: "from-indigo-500 to-blue-500",
-        timeline: "Sept 2023"
-    },
-    {
-        title: "ERP Middleware (TPL Order Flow Support)",
-        description: "Developed backend and frontend enhancements for new lenders (Stride, Mintifi). Built workflows for order creation, invoice generation, and payment handling. Created a centralized configuration table to improve scalability and maintainability.",
-        technologies: ["Java", "Spring Boot", "Js", "Html", "CSS", "REST APIs", "MySQL"],
-        status: "Completed",
-        type: "Enterprise Project",
-        icon: Database,
-        color: "from-teal-500 to-blue-500",
-        timeline: "May 2025"
-    },
-    {
         title: "Customer Inquiry and Procurement System",
         description: "Built a customer inquiry portal for steel procurement at optimal market prices. Integrated RESTful APIs with OpenAI, Amazon APIs, and Python-based pricing models. Automated JSON data ingestion and implemented PDF/image-to-text conversion pipelines. Integrated a Python predictive pricing model API to forecast SKU prices accurately.",
         technologies: ["Java", "Spring Boot", "React.js", "Python", "REST APIs", "OpenAI API", "Amazon API"],
-        status: "Completed",
+        status: "Ongoing",
         type: "Enterprise Project",
         icon: ShipIcon,
         color: "from-indigo-500 to-blue-500",
-        timeline: "Feb 2025"
+        timeline: "Jan 2026 – Present"
+    },
+    {
+        title: "Order Project",
+        description: "Developed and enhanced order creation, processing, and tracking workflows using Java, Spring Boot, Js, Html, Css. Optimized RESTful APIs and MySQL queries, improving response time by 25%. Debugged production issues within Agile sprints, ensuring 100% on-time delivery.",
+        technologies: ["Java", "Spring Boot", "Js", "Html", "CSS", "REST APIs", "MySQL"],
+        status: "Completed",
+        type: "Enterprise Project",
+        icon: ZapIcon,
+        color: "from-blue-500 to-cyan-500",
+        timeline: "Dec 2023 – Jan 2026"
     },
     {
         title: "Credit Module",
