@@ -49,7 +49,7 @@ const Hero = () => {
           {/* Stats */}
           <div className="flex flex-wrap justify-center gap-8 mb-8 animate-fade-in-up delay-400">
             <div className="text-center">
-              <div className="text-2xl font-bold gradient-text">3+</div>
+              <div className="text-2xl font-bold gradient-text">4+</div>
               <div className="text-sm text-muted-foreground">Years Experience</div>
             </div>
             <div className="text-center">

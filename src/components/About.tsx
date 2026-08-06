@@ -5,7 +5,7 @@ import { Trophy, Calendar, MapPin } from 'lucide-react';
 const About = () => {
   const achievements = [
     // { icon: Trophy, text: "Hackathon Runner-up 2025" },
-    { icon: Calendar, text: "3+ Years Experience" },
+    { icon: Calendar, text: "4+ Years Experience" },
     { icon: MapPin, text: "Andhra Pradesh, India" },
   ];
 
@@ -26,9 +26,10 @@ const About = () => {
             <div className="animate-fade-in-left">
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                 I'm a passionate <span className="text-primary font-semibold">Java Backend Developer</span> with 
-                over 3 years of experience building scalable web applications and robust backend systems. 
+                over 4 years of experience building scalable web applications and robust backend systems. 
                 Currently working at <span className="text-secondary font-semibold">Tata Nexarc</span>, 
-                I specialize in Spring Boot, REST APIs, and modern web technologies.
+                I specialize in Spring Boot, REST APIs, and modern web technologies. I am also the founder of 
+                <span className="text-accent font-semibold"> MatchSolver.com</span>, an AI-powered career growth platform.
               </p>
               
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
@@ -65,10 +66,10 @@ const About = () => {
                 </Card>
 
                 <Card className="p-6 card-hover border-border bg-card">
-                  <h3 className="font-semibold text-xl mb-2 gradient-text">Internship</h3>
-                  <p className="text-foreground font-medium">Java Full Stack Intern</p>
-                  <p className="text-muted-foreground">Pantech eLearning</p>
-                  <p className="text-sm text-muted-foreground mt-2">Sep 2022 – Sep 2022</p>
+                  <h3 className="font-semibold text-xl mb-2 gradient-text">Founder</h3>
+                  <p className="text-foreground font-medium">Founder & Architect</p>
+                  <p className="text-muted-foreground">MatchSolver.com</p>
+                  <p className="text-sm text-muted-foreground mt-2">Oct 2024 – Present</p>
                 </Card>
 
                 <Card className="p-6 card-hover border-border bg-card">

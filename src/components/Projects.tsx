@@ -15,6 +15,16 @@ const Projects = () => {
     //   color: "from-blue-500 to-cyan-500"
     // },
     {
+        title: "MatchSolver.com (Featured)",
+        description: "Founder & Architect of an AI-Powered Career Optimization & Document Management Platform. Integrates resume parsing, cover letter optimizations, ATS match rating, and 50+ PDF/image utilities using high-concurrency thread pools and OCR pipelines.",
+        technologies: ["Java", "Spring Boot", "React.js", "MySQL", "OCR", "LLM Integration", "Redis", "RabbitMQ"],
+        status: "Completed",
+        type: "Personal Product",
+        icon: Brain,
+        color: "from-purple-500 to-indigo-500",
+        timeline: "Oct 2024 – Present"
+    },
+    {
         title: "Order Project",
         description: "Developed and enhanced order creation, processing, and tracking workflows using Java, Spring Boot, Js, Html, Css. Optimized RESTful APIs and MySQL queries, improving response time by 25%. Debugged production issues within Agile sprints, ensuring 100% on-time delivery.",
         technologies: ["Java", "Spring Boot", "Js", "Html", "CSS", "REST APIs", "MySQL"],
@@ -193,7 +203,7 @@ const Projects = () => {
 
                 {/* Action Buttons */}
                 <div className="flex gap-3">
-                  <a href={project.type === 'Hackathon Project' ? '#' : 'https://www.tatanexarc.com/'}
+                  <a href={project.title.includes('MatchSolver') ? 'https://matchsolver.com' : project.type === 'Hackathon Project' ? '#' : 'https://www.tatanexarc.com/'}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex-1">
@@ -205,13 +215,6 @@ const Projects = () => {
                         View Details
                     </Button>
                   </a>
-                  {/* <Button 
-                    size="sm" 
-                    variant="outline"
-                    className="border-muted-foreground/20 hover:border-primary hover:text-primary transition-colors"
-                  >
-                    <Github className="h-4 w-4" />
-                  </Button> */}
                 </div>
               </Card>
             ))}
