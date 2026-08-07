@@ -2,7 +2,20 @@ import { ArrowDown, Download, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import profileImage from '@/assets/profile-new.png';
 
+const calculateExperience = () => {
+  const startDate = new Date('2022-08-01');
+  const currentDate = new Date();
+  let years = currentDate.getFullYear() - startDate.getFullYear();
+  let months = currentDate.getMonth() - startDate.getMonth();
+  if (months < 0) {
+    years--;
+    months += 12;
+  }
+  return months > 0 ? `${years}.${months}` : `${years}`;
+};
+
 const Hero = () => {
+  const exp = calculateExperience();
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -49,7 +62,7 @@ const Hero = () => {
           {/* Stats */}
           <div className="flex flex-wrap justify-center gap-8 mb-8 animate-fade-in-up delay-400">
             <div className="text-center">
-              <div className="text-2xl font-bold gradient-text">4+</div>
+              <div className="text-2xl font-bold gradient-text">{exp}+</div>
               <div className="text-sm text-muted-foreground">Years Experience</div>
             </div>
             <div className="text-center">

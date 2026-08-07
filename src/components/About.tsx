@@ -2,10 +2,23 @@ import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Trophy, Calendar, MapPin } from 'lucide-react';
 
+const calculateExperience = () => {
+  const startDate = new Date('2022-08-01');
+  const currentDate = new Date();
+  let years = currentDate.getFullYear() - startDate.getFullYear();
+  let months = currentDate.getMonth() - startDate.getMonth();
+  if (months < 0) {
+    years--;
+    months += 12;
+  }
+  return months > 0 ? `${years}.${months}` : `${years}`;
+};
+
 const About = () => {
+  const exp = calculateExperience();
   const achievements = [
     // { icon: Trophy, text: "Hackathon Runner-up 2025" },
-    { icon: Calendar, text: "4+ Years Experience" },
+    { icon: Calendar, text: `${exp}+ Years Experience` },
     { icon: MapPin, text: "Andhra Pradesh, India" },
   ];
 
@@ -26,7 +39,7 @@ const About = () => {
             <div className="animate-fade-in-left">
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                 I'm a passionate <span className="text-primary font-semibold">Java Backend Developer</span> with 
-                over 4 years of experience building scalable web applications and robust backend systems. 
+                over {exp} years of experience building scalable web applications and robust backend systems. 
                 Currently working at <span className="text-secondary font-semibold">Tata Nexarc</span>, 
                 I specialize in Spring Boot, REST APIs, and modern web technologies. I am also the founder of 
                 <span className="text-accent font-semibold"> MatchSolver.com</span>, an AI-powered career growth platform.
