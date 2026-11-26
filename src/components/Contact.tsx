@@ -23,12 +23,6 @@ const Contact = () => {
       link: "mailto:mohansaikumar.rongala@gmail.com"
     },
     {
-      icon: Phone,
-      label: "Phone",
-      value: "+91 80742 56614",
-      link: "tel:+918074256614"
-    },
-    {
       icon: MapPin,
       label: "Location",
       value: "Andhra Pradesh, India",

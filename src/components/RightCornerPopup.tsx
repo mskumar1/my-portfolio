@@ -44,14 +44,6 @@ const RightCornerPopup = () => {
       {/* Social Links */}
       <div className="flex space-x-3">
         <a
-          href="https://wa.me/918074256614"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="p-2 rounded-full bg-green-500 text-white hover:scale-110 transition-transform"
-        >
-          <MessageCircle size={22} />
-        </a>
-        <a
           href="mailto:mohansaikumar.rongala@gmail.com"
           className="p-2 rounded-full bg-red-500 text-white hover:scale-110 transition-transform"
         >

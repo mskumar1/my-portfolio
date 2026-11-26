@@ -42,7 +42,7 @@ const About = () => {
                 over {exp} years of experience designing, developing, and maintaining scalable enterprise applications. 
                 Currently working as an <span className="text-secondary font-semibold">Associate Consultant at Infosys</span> (previously at <span className="text-secondary font-semibold">Tata Nexarc</span>), 
                 I specialize in Spring Boot, Microservices, REST APIs, and cloud-native integrations. I am also the founder of 
-                <span className="text-accent font-semibold"> MatchSolver.com</span> and creator of the <span className="text-accent font-semibold">UseMerai.com</span> platform.
+                <span className="text-accent font-semibold"> Merai Career</span> (AI Resume Builder & Career Suite) and creator of the <span className="text-accent font-semibold">UseMerai.com</span> ecosystem.
               </p>
               
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
@@ -88,7 +88,7 @@ const About = () => {
                 <Card className="p-6 card-hover border-border bg-card">
                   <h3 className="font-semibold text-xl mb-2 gradient-text">Founder</h3>
                   <p className="text-foreground font-medium">Founder & Architect</p>
-                  <p className="text-muted-foreground">UseMerai.com / MatchSolver.com</p>
+                  <p className="text-muted-foreground">Merai Career / UseMerai.com</p>
                   <p className="text-sm text-muted-foreground mt-2">Oct 2024 – Present</p>
                 </Card>
 

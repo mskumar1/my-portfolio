@@ -1,20 +1,42 @@
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, Github, Trophy, Zap, Database, Brain, Verified, Wallet, DiscIcon, BrickWall, BrickWallIcon, LayoutDashboard, ListOrderedIcon, ListOrdered, ZapIcon, ShipIcon, Mail, ShoppingBag, Video, HeartHandshake, Pill, Gamepad2 } from 'lucide-react';
+import { ExternalLink, Github, Trophy, Zap, Database, Brain, Verified, Wallet, DiscIcon, BrickWall, BrickWallIcon, LayoutDashboard, ListOrderedIcon, ListOrdered, ZapIcon, ShipIcon, Mail, ShoppingBag, Video, HeartHandshake, Pill, Gamepad2, Calculator } from 'lucide-react';
 
 const Projects = () => {
   const projects = [  
     {
-        title: "MatchSolver.com (Featured)",
-        description: "Founder & Architect of an AI-Powered Career Optimization & Document Management Platform. Integrates resume parsing, cover letter optimizations, ATS match rating, and 50+ PDF/image utilities using high-concurrency thread pools and OCR pipelines.",
+        title: "Merai Career (Featured)",
+        description: "Founder & Architect of Merai Career — Free AI Resume Builder, ATS match optimization, and complete career suite. Integrates automated resume parsing, cover letter optimization, and 50+ document processing tools using high-concurrency microservices.",
         technologies: ["Java", "Spring Boot", "React.js", "MySQL", "OCR", "LLM Integration", "Redis", "RabbitMQ"],
         status: "Completed",
         type: "Personal Product",
         icon: Brain,
         color: "from-purple-500 to-indigo-500",
         timeline: "Oct 2024 – Present",
-        link: "https://matchsolver.com"
+        link: "https://career.usemerai.com/"
+    },
+    {
+        title: "Merai Quantum Studio Calculator",
+        description: "Advanced Scientific & AI Neural Calculator with real-time computation, unit conversions, financial calculators, matrix operations, and responsive mobile-first UI.",
+        technologies: ["JavaScript / TypeScript", "Capacitor", "PWA", "Tailwind CSS"],
+        status: "Completed",
+        type: "Product",
+        icon: Calculator,
+        color: "from-cyan-500 to-blue-600",
+        timeline: "2026",
+        link: "https://calculator.usemerai.com/"
+    },
+    {
+        title: "Rahul Pharmacy",
+        description: "Online healthcare & genuine medicine delivery platform with WebGL/Three.js 3D medicine visualization, 21 CFR Part 11 audit trails, cold-chain logistics monitoring, and role-based permissions.",
+        technologies: ["Three.js", "React-Three-Fiber", "Node.js / Go", "WebGL", "JWT"],
+        status: "Completed",
+        type: "Product",
+        icon: Pill,
+        color: "from-green-500 to-emerald-600",
+        timeline: "2026",
+        link: "https://pharmacy.usemerai.com/"
     },
     {
         title: "Merai Mail",
@@ -25,18 +47,40 @@ const Projects = () => {
         icon: Mail,
         color: "from-blue-600 to-cyan-500",
         timeline: "2026",
-        link: "https://usemerai.com"
+        link: "https://mail.usemerai.com/"
     },
     {
         title: "Merai Shopping",
-        description: "Full-stack, ultra-fast E-Commerce platform with deterministic catalog generation serving 12.5 Lakh+ catalog items across 11 categories without database bottlenecks. Includes Razorpay online payments with HMAC-SHA256 signature verification and Cash on Delivery.",
+        description: "Full-stack, ultra-fast E-Commerce platform with deterministic catalog generation serving 10 Lakh+ products across categories without database bottlenecks. Includes Razorpay online payments with HMAC-SHA256 signature verification and Cash on Delivery.",
         technologies: ["Go (Golang)", "Angular 19", "Razorpay", "Docker", "Nginx", "PWA"],
         status: "Completed",
         type: "Product",
         icon: ShoppingBag,
         color: "from-emerald-500 to-teal-500",
         timeline: "2026",
-        link: "https://shopping.usemerai.com"
+        link: "https://shopping.usemerai.com/"
+    },
+    {
+        title: "Merai Shaadi",
+        description: "Free AI Marriage Biodata Maker & Matrimonial Studio featuring daily match recommendations, horoscope matching, real-time matrimonial inbox messaging via WebSockets, and subscription management.",
+        technologies: ["Go (Golang)", "Gin", "Angular", "WebSocket", "Razorpay", "MySQL"],
+        status: "Completed",
+        type: "Product",
+        icon: HeartHandshake,
+        color: "from-red-500 to-amber-500",
+        timeline: "2026",
+        link: "https://shaadi.usemerai.com/"
+    },
+    {
+        title: "Merai Play",
+        description: "Cyberpunk Arcade & Multiplayer Battle Arena featuring duel games (2048 Race, Battle Sudoku, Memory Showdown, Word Duel) and real-time arcade puzzles synchronized via WebSockets.",
+        technologies: ["Angular 18", "Go (Golang)", "WebSocket", "TypeScript", "Tailwind CSS"],
+        status: "Completed",
+        type: "Product",
+        icon: Gamepad2,
+        color: "from-violet-500 to-purple-600",
+        timeline: "2026",
+        link: "https://play.usemerai.com/"
     },
     {
         title: "Merai Connect",
@@ -46,36 +90,6 @@ const Projects = () => {
         type: "Product",
         icon: Video,
         color: "from-pink-500 to-rose-500",
-        timeline: "2026"
-    },
-    {
-        title: "Merai Shaadi",
-        description: "Full-stack matrimonial platform featuring daily match recommendations, horoscope matching metadata, real-time matrimonial inbox messaging via WebSockets, and subscription management integrated with Razorpay.",
-        technologies: ["Go (Golang)", "Gin", "Angular", "WebSocket", "Razorpay", "MySQL"],
-        status: "Completed",
-        type: "Product",
-        icon: HeartHandshake,
-        color: "from-red-500 to-amber-500",
-        timeline: "2026"
-    },
-    {
-        title: "Rahul Pharmacy (Merai Pharmacy)",
-        description: "Compliance-ready 3D interactive pharmaceutical e-commerce platform. Features Three.js/React-Three-Fiber 3D medicine visualization, 21 CFR Part 11 immutable audit trail logging, cold-chain logistics monitoring, and strict RBAC.",
-        technologies: ["Three.js", "React-Three-Fiber", "Node.js / Go", "WebGL", "JWT"],
-        status: "Completed",
-        type: "Product",
-        icon: Pill,
-        color: "from-green-500 to-emerald-600",
-        timeline: "2026"
-    },
-    {
-        title: "Merai Games",
-        description: "Real-time multiplayer competitive gaming platform featuring duel games (2048 Race, Battle Sudoku, Memory Showdown, Word Duel) and arcade logic puzzles synchronized with low-latency WebSockets.",
-        technologies: ["Angular 18", "Go (Golang)", "WebSocket", "TypeScript", "Tailwind CSS"],
-        status: "Completed",
-        type: "Product",
-        icon: Gamepad2,
-        color: "from-violet-500 to-purple-600",
         timeline: "2026"
     },
     {
