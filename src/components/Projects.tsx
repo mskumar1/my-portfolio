@@ -84,13 +84,14 @@ const Projects = () => {
     },
     {
         title: "Merai Connect",
-        description: "Cross-platform real-time communication platform offering P2P WebRTC audio/video calling with STUN/TURN fallback, low-latency WebSocket signaling, and live chat with unread badges, attachments, and alert notifications.",
+        description: "Live 1-on-1 Video & Chat communication platform offering P2P WebRTC audio/video calling with STUN/TURN fallback, low-latency WebSocket signaling, and live messaging with unread badges and attachments.",
         technologies: ["Angular 19", "Go (Golang)", "WebRTC", "WebSocket", "Capacitor", "Android"],
         status: "Completed",
         type: "Product",
         icon: Video,
         color: "from-pink-500 to-rose-500",
-        timeline: "2026"
+        timeline: "2026",
+        link: "https://connect.usemerai.com/"
     },
     {
         title: "Customer Inquiry and Procurement System",
