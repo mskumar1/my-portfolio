@@ -1,19 +1,10 @@
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, Github, Trophy, Zap, Database, Brain, Verified, Wallet, DiscIcon, BrickWall, BrickWallIcon, LayoutDashboard, ListOrderedIcon, ListOrdered, ZapIcon, ShipIcon } from 'lucide-react';
+import { ExternalLink, Github, Trophy, Zap, Database, Brain, Verified, Wallet, DiscIcon, BrickWall, BrickWallIcon, LayoutDashboard, ListOrderedIcon, ListOrdered, ZapIcon, ShipIcon, Mail, ShoppingBag, Video, HeartHandshake, Pill, Gamepad2 } from 'lucide-react';
 
 const Projects = () => {
   const projects = [  
-    // {
-    //   title: "Transaction Experience Platform",
-    //   description: "Comprehensive payment and order management system with integrated dashboard, order tracking, paywall implementation, and Razorpay payment gateway.",
-    //   technologies: ["Spring Boot", "React.js", "Razorpay", "MySQL", "REST APIs"],
-    //   status: "On going",
-    //   type: "Enterprise Project",
-    //   icon: Zap,
-    //   color: "from-blue-500 to-cyan-500"
-    // },
     {
         title: "MatchSolver.com (Featured)",
         description: "Founder & Architect of an AI-Powered Career Optimization & Document Management Platform. Integrates resume parsing, cover letter optimizations, ATS match rating, and 50+ PDF/image utilities using high-concurrency thread pools and OCR pipelines.",
@@ -22,7 +13,70 @@ const Projects = () => {
         type: "Personal Product",
         icon: Brain,
         color: "from-purple-500 to-indigo-500",
-        timeline: "Oct 2024 – Present"
+        timeline: "Oct 2024 – Present",
+        link: "https://matchsolver.com"
+    },
+    {
+        title: "Merai Mail",
+        description: "Multi-account enterprise business email platform and unified inbox. Features split thread views, IMAP/SMTP sync engine, AES-256-GCM credential encryption, WebSocket notifications, and high-concurrency message queues.",
+        technologies: ["Go (Golang)", "Gin", "Angular 17", "PostgreSQL", "Redis", "WebSocket", "IMAP/SMTP"],
+        status: "Completed",
+        type: "Product",
+        icon: Mail,
+        color: "from-blue-600 to-cyan-500",
+        timeline: "2026",
+        link: "https://usemerai.com"
+    },
+    {
+        title: "Merai Shopping",
+        description: "Full-stack, ultra-fast E-Commerce platform with deterministic catalog generation serving 12.5 Lakh+ catalog items across 11 categories without database bottlenecks. Includes Razorpay online payments with HMAC-SHA256 signature verification and Cash on Delivery.",
+        technologies: ["Go (Golang)", "Angular 19", "Razorpay", "Docker", "Nginx", "PWA"],
+        status: "Completed",
+        type: "Product",
+        icon: ShoppingBag,
+        color: "from-emerald-500 to-teal-500",
+        timeline: "2026",
+        link: "https://shopping.usemerai.com"
+    },
+    {
+        title: "Merai Connect",
+        description: "Cross-platform real-time communication platform offering P2P WebRTC audio/video calling with STUN/TURN fallback, low-latency WebSocket signaling, and live chat with unread badges, attachments, and alert notifications.",
+        technologies: ["Angular 19", "Go (Golang)", "WebRTC", "WebSocket", "Capacitor", "Android"],
+        status: "Completed",
+        type: "Product",
+        icon: Video,
+        color: "from-pink-500 to-rose-500",
+        timeline: "2026"
+    },
+    {
+        title: "Merai Shaadi",
+        description: "Full-stack matrimonial platform featuring daily match recommendations, horoscope matching metadata, real-time matrimonial inbox messaging via WebSockets, and subscription management integrated with Razorpay.",
+        technologies: ["Go (Golang)", "Gin", "Angular", "WebSocket", "Razorpay", "MySQL"],
+        status: "Completed",
+        type: "Product",
+        icon: HeartHandshake,
+        color: "from-red-500 to-amber-500",
+        timeline: "2026"
+    },
+    {
+        title: "Rahul Pharmacy (Merai Pharmacy)",
+        description: "Compliance-ready 3D interactive pharmaceutical e-commerce platform. Features Three.js/React-Three-Fiber 3D medicine visualization, 21 CFR Part 11 immutable audit trail logging, cold-chain logistics monitoring, and strict RBAC.",
+        technologies: ["Three.js", "React-Three-Fiber", "Node.js / Go", "WebGL", "JWT"],
+        status: "Completed",
+        type: "Product",
+        icon: Pill,
+        color: "from-green-500 to-emerald-600",
+        timeline: "2026"
+    },
+    {
+        title: "Merai Games",
+        description: "Real-time multiplayer competitive gaming platform featuring duel games (2048 Race, Battle Sudoku, Memory Showdown, Word Duel) and arcade logic puzzles synchronized with low-latency WebSockets.",
+        technologies: ["Angular 18", "Go (Golang)", "WebSocket", "TypeScript", "Tailwind CSS"],
+        status: "Completed",
+        type: "Product",
+        icon: Gamepad2,
+        color: "from-violet-500 to-purple-600",
+        timeline: "2026"
     },
     {
         title: "Customer Inquiry and Procurement System",
@@ -32,7 +86,8 @@ const Projects = () => {
         type: "Enterprise Project",
         icon: ShipIcon,
         color: "from-indigo-500 to-blue-500",
-        timeline: "Jan 2026 – Present"
+        timeline: "Jan 2026 – Present",
+        link: "https://www.tatanexarc.com/"
     },
     {
         title: "Order Project",
@@ -42,7 +97,8 @@ const Projects = () => {
         type: "Enterprise Project",
         icon: ZapIcon,
         color: "from-blue-500 to-cyan-500",
-        timeline: "Dec 2023 – Jan 2026"
+        timeline: "Dec 2023 – Jan 2026",
+        link: "https://www.tatanexarc.com/"
     },
     {
         title: "AI-Powered Document/Image Parser & Validator (Hackathon 2025)",
@@ -62,7 +118,8 @@ const Projects = () => {
         type: "Enterprise Project",
         icon: LayoutDashboard,
         color: "from-indigo-500 to-blue-500",
-        timeline: "Sept 2023"
+        timeline: "Sept 2023",
+        link: "https://www.tatanexarc.com/"
     },
     {
         title: "ERP Middleware (TPL Order Flow Support)",
@@ -72,7 +129,8 @@ const Projects = () => {
         type: "Enterprise Project",
         icon: Database,
         color: "from-teal-500 to-blue-500",
-        timeline: "May 2025"
+        timeline: "May 2025",
+        link: "https://www.tatanexarc.com/"
     },
     {
         title: "Credit Module",
@@ -82,7 +140,8 @@ const Projects = () => {
         type: "Enterprise Project",
         icon: Card,
         color: "from-yellow-500 to-orange-500",
-        timeline: "June 2024"
+        timeline: "June 2024",
+        link: "https://www.tatanexarc.com/"
     },
     {
         title: "Payment Project",
@@ -92,7 +151,8 @@ const Projects = () => {
         type: "Enterprise Project",
         icon: Zap,
         color: "from-cyan-500 to-blue-500",
-        timeline: "Dec 2023"
+        timeline: "Dec 2023",
+        link: "https://www.tatanexarc.com/"
     },
     {
         title: "Ledger Wallet Project",
@@ -102,7 +162,8 @@ const Projects = () => {
         type: "Enterprise Project",
         icon: Wallet,
         color: "from-green-500 to-emerald-500",
-        timeline: "June 2023"
+        timeline: "June 2023",
+        link: "https://www.tatanexarc.com/"
     },
     {
         title: "Paywall & Discount Coupons Project",
@@ -112,26 +173,9 @@ const Projects = () => {
         type: "Enterprise Project",
         icon: BrickWallIcon,
         color: "from-purple-500 to-pink-500",
-        timeline: "Aug 2022"
+        timeline: "Aug 2022",
+        link: "https://www.tatanexarc.com/"
     }
-    // ,{
-    //     title: "Products",
-    //     description: "Managed product catalog, inventory, and details within the platform.",
-    //     technologies: ["Java", "Spring Boot", "React.js", "MySQL", "REST APIs"],
-    //     status: "Completed",
-    //     type: "Enterprise Project",
-    //     icon: BrickWallIcon,
-    //     color: "from-indigo-500 to-purple-500"
-    // },
-    // {
-    //     title: "Business Verification Platform (BVP)",
-    //     description: "Handled business verification flows including KYC, document verification, and validation processes.",
-    //     technologies: ["Java", "Spring Boot", "React.js", "REST APIs", "MySQL"],
-    //     status: "Completed",
-    //     type: "Enterprise Project",
-    //     icon: Verified,
-    //     color: "from-blue-500 to-cyan-500"
-    // }
   ];
 
   return (
@@ -203,8 +247,8 @@ const Projects = () => {
 
                 {/* Action Buttons */}
                 <div className="flex gap-3">
-                  <a href={project.title.includes('MatchSolver') ? 'https://matchsolver.com' : project.type === 'Hackathon Project' ? '#' : 'https://www.tatanexarc.com/'}
-                    target="_blank"
+                  <a href={project.link || (project.type === 'Hackathon Project' ? '#' : 'https://www.tatanexarc.com/')}
+                    target={project.link || project.type !== 'Hackathon Project' ? '_blank' : undefined}
                     rel="noopener noreferrer"
                     className="flex-1">
                     <Button 
