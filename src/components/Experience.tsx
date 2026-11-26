@@ -5,20 +5,44 @@ import { Building, Calendar, MapPin } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      title: "Software Developer",
-      company: "Tata Nexarc",
+      title: "Associate Consultant",
+      company: "Infosys",
       location: "Hyderabad, India",
-      period: "Aug 2022 – Present",
+      period: "Oct 2026 – Present",
       type: "Full-time",
       responsibilities: [
-        "Engineered OCR Invoice pipelines to parse, extract, and structure invoice details, reducing manual indexing overhead.",
-        "Built transactional checkout pipelines with Razorpay and other payment gateways, resolving webhook processing and reconciliation.",
-        "Implemented distributed locking via Redis to prevent double-spending and ensure transaction consistency under concurrent spikes.",
-        "Developed and maintained core backend services using Java 8, Spring Boot, microservices, and REST APIs.",
-        "Built responsive frontend modules using Angular.js and optimized MySQL database queries/schemas.",
-        "Collaborated in Agile/Scrum environments with cross-functional teams to resolve critical production support issues."
+        "Designing, developing, and maintaining scalable enterprise backend architectures using Java, Spring Boot, Spring Data JPA, and Microservices.",
+        "Implementing secure RESTful API integrations and cloud-native solutions in Agile Scrum environments.",
+        "Driving backend performance tuning, CI/CD automated deployments, and enterprise service optimizations."
       ],
-      technologies: ["Java 8", "Spring Boot", "MySQL", "REST APIs", "Razorpay", "Redis", "AWS"] // "Angular.js"
+      technologies: ["Java", "Spring Boot", "Spring Data JPA", "Hibernate", "Microservices", "REST APIs", "AWS", "Docker"]
+    },
+    {
+      title: "Software Developer",
+      company: "Tata Nexarc",
+      location: "Hyderabad, India (Remote)",
+      period: "Aug 2022 – Oct 2026",
+      type: "Full-time",
+      responsibilities: [
+        "Engineered customer inquiry and procurement platform with OpenAI APIs, Amazon APIs, and Python predictive pricing models.",
+        "Developed and optimized Order, Order Dashboard, Paywall, Payment (Razorpay), and Discount Coupon modules with sub-second response times.",
+        "Built OCR-based invoice and document parsing pipelines, reducing manual processing and extracting structured JSON data.",
+        "Architected credit management microservices with Camunda workflows and multi-lender centralized configuration support.",
+        "Implemented distributed locking via Redis to prevent double-spending and ensure transaction consistency under concurrent spikes.",
+        "Honored with the Top Contributor Award (March 2026) for technical excellence and driving Agentic Coding pilot initiatives."
+      ],
+      technologies: ["Java", "Spring Boot", "MySQL", "REST APIs", "Razorpay", "Redis", "Camunda", "Docker", "AWS"]
+    },
+    {
+      title: "Java Full Stack Intern",
+      company: "Pantech eLearning",
+      location: "Remote",
+      period: "Sept 2022",
+      type: "Internship",
+      responsibilities: [
+        "Completed hands-on Java full-stack training covering core Java, web services, database design, and web development fundamentals."
+      ],
+      technologies: ["Java", "SQL", "HTML/CSS", "JavaScript"]
     }
   ];
 

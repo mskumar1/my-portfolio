@@ -38,17 +38,17 @@ const About = () => {
             {/* Bio */}
             <div className="animate-fade-in-left">
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                I'm a passionate <span className="text-primary font-semibold">Java Backend Developer</span> with 
-                over {exp} years of experience building scalable web applications and robust backend systems. 
-                Currently working at <span className="text-secondary font-semibold">Tata Nexarc</span>, 
-                I specialize in Spring Boot, REST APIs, and modern web technologies. I am also the founder of 
-                <span className="text-accent font-semibold"> MatchSolver.com</span>, an AI-powered career growth platform.
+                I'm a passionate <span className="text-primary font-semibold">Backend Java Developer</span> with 
+                over {exp} years of experience designing, developing, and maintaining scalable enterprise applications. 
+                Currently working as an <span className="text-secondary font-semibold">Associate Consultant at Infosys</span> (previously at <span className="text-secondary font-semibold">Tata Nexarc</span>), 
+                I specialize in Spring Boot, Microservices, REST APIs, and cloud-native integrations. I am also the founder of 
+                <span className="text-accent font-semibold"> MatchSolver.com</span> and creator of the <span className="text-accent font-semibold">UseMerai.com</span> platform.
               </p>
               
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                My expertise spans across backend development with Java, frontend frameworks like Angular, 
-                and cloud technologies including AWS. I'm passionate about creating efficient, scalable solutions 
-                and have a proven track record in payment gateway integrations, finance workflows, and API development.
+                My expertise spans backend development with Java, Spring Data JPA, Hibernate, Docker, Kubernetes, AWS, 
+                and frontend frameworks like Angular. I have a proven track record in payment gateway integrations (Razorpay), 
+                credit/lender automation workflows, OCR invoice pipelines, and integrating AI services like Gemini and OpenAI.
               </p>
 
               <p className="text-lg text-muted-foreground leading-relaxed mb-8">
@@ -73,30 +73,30 @@ const About = () => {
               <div className="grid gap-6">
                 <Card className="p-6 card-hover border-border bg-card">
                   <h3 className="font-semibold text-xl mb-2 gradient-text">Current Role</h3>
+                  <p className="text-foreground font-medium">Associate Consultant</p>
+                  <p className="text-muted-foreground">Infosys, Hyderabad, India</p>
+                  <p className="text-sm text-muted-foreground mt-2">Oct 2026 – Present</p>
+                </Card>
+
+                <Card className="p-6 card-hover border-border bg-card">
+                  <h3 className="font-semibold text-xl mb-2 gradient-text">Previous Role</h3>
                   <p className="text-foreground font-medium">Software Developer</p>
                   <p className="text-muted-foreground">Tata Nexarc, Hyderabad (Remote)</p>
-                  <p className="text-sm text-muted-foreground mt-2">Aug 2022 – Present</p>
+                  <p className="text-sm text-muted-foreground mt-2">Aug 2022 – Oct 2026</p>
                 </Card>
 
                 <Card className="p-6 card-hover border-border bg-card">
                   <h3 className="font-semibold text-xl mb-2 gradient-text">Founder</h3>
                   <p className="text-foreground font-medium">Founder & Architect</p>
-                  <p className="text-muted-foreground">MatchSolver.com</p>
+                  <p className="text-muted-foreground">UseMerai.com / MatchSolver.com</p>
                   <p className="text-sm text-muted-foreground mt-2">Oct 2024 – Present</p>
                 </Card>
 
                 <Card className="p-6 card-hover border-border bg-card">
                   <h3 className="font-semibold text-xl mb-2 gradient-text">Education</h3>
-                  <p className="text-foreground font-medium">B.Tech Electronics & Communications</p>
-                  <p className="text-muted-foreground">Chalapathi Institute of Engineering & Technology</p>
+                  <p className="text-foreground font-medium">B.Tech Electronics & Communication (CGPA: 8.65)</p>
+                  <p className="text-muted-foreground">CIET, Guntur, Andhra Pradesh</p>
                   <p className="text-sm text-muted-foreground mt-2">2018 – 2022</p>
-                </Card>
-
-                <Card className="p-6 card-hover border-border bg-card">
-                  <h3 className="font-semibold text-xl mb-2 gradient-text">Specialization</h3>
-                  <p className="text-foreground font-medium">Backend Development & APIs</p>
-                  <p className="text-muted-foreground">Java, Spring Boot, REST APIs, Payment Gateways</p>
-                  <p className="text-sm text-muted-foreground mt-2">Enterprise Scale Solutions</p>
                 </Card>
               </div>
             </div>
